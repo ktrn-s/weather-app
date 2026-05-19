@@ -45,9 +45,19 @@ git clone https://github.com/ktrn-s/weather-app
 
 Challenges and Learnings
 
-One of the main challenges in this project was working with API data and asynchronous JavaScript to fetch and display weather information correctly.
+This project helped strengthen my understanding of:
 
-Implementing the 5-day forecast required understanding how to parse JSON data and dynamically update the DOM.
-This experience strengthened my understanding of real-world API usage, JavaScript event handling, and user interface design.
+- Working with APIs and asynchronous JavaScript (fetch, async/await)
+- Handling JSON data from real-world APIs
+- DOM manipulation and dynamic UI updates
+- Creating responsive and interactive user interfaces
 
-Future improvements could include hourly forecasts, autocomplete city search, and more advanced visual effects like animated weather icons.
+A key challenge was correctly parsing the 5-day forecast data and displaying it in a clean format.
+
+Future Improvements
+
+- Hourly forecast view
+City autocomplete search
+Animated weather icons
+Improved mobile responsiveness
+Geolocation-based weather detection
