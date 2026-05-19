@@ -24,7 +24,7 @@ Live Demo
 
 Screenshot
 
-![](./##.png)
+![Weather App Screenshot](./weather.png)
 
 Technologies Used
 
