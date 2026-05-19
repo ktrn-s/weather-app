@@ -20,11 +20,11 @@ Optional enhancements include dynamic backgrounds and icons that change accordin
 
 Live Demo
 
-###
+https://skycastlyweathora.netlify.app/ 
 
 Screenshot
 
-![Weather App Screenshot](./weather.png)
+![Weather App Screenshot](./weather.png) 
 
 Technologies Used
 
@@ -39,7 +39,7 @@ No additional setup is required.
 
 1. Clone the repository:
  bash 
-git clone https://###
+git clone https://github.com/ktrn-s/weather-app
 
 2. Open the project folder and open `index.html` in your browser.
 
