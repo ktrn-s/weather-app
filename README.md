@@ -57,7 +57,7 @@ A key challenge was correctly parsing the 5-day forecast data and displaying it 
 Future Improvements
 
 - Hourly forecast view
-City autocomplete search
+- City autocomplete search
 Animated weather icons
 Improved mobile responsiveness
 Geolocation-based weather detection
