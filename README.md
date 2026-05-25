@@ -60,4 +60,4 @@ Future Improvements
 - City autocomplete search
 - Animated weather icons
 - Improved mobile responsiveness
-- Geolocation-based weather detection
+- Geolocation-based weather detection?
