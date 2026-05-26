@@ -161,6 +161,29 @@ body {
     }
 }
 
+#weather-card {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
 @media all and (max-width: 800px) {
 
     #container {
@@ -212,3 +235,4 @@ body {
         padding: 0 10px;
     }
 }
+
