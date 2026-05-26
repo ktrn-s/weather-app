@@ -54,6 +54,7 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+    backdrop-filter: blur(8px);
 }
 
 #input {
