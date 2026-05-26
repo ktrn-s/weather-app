@@ -237,5 +237,14 @@ body {
         font-size: 14px;
         padding: 0 10px;
     }
+
+    #header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #search-btn {
+        width: 90%;
+    }
 }
 
