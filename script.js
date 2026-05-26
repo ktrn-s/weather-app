@@ -5,11 +5,20 @@ const api = {
     key: "e73a76eecedc0954f83b82e5d43455f9"
 }
 
+
 const input = document.querySelector("#input");
-input.addEventListener("keypress", enter)
+const searchBtn = document.querySelector("#search-btn");
+input.addEventListener("keypress", enter);
+searchBtn.addEventListener("click", searchCity);
 
 function enter(e) {
     if (e.key === "Enter") {
+        getInfo(input.value);
+    }
+}
+
+function searchCity() {
+    if(input.value.trim() !== ""){
         getInfo(input.value);
     }
 }
