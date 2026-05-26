@@ -46,6 +46,11 @@
     align-items: center;
 }
 
+#search-btn {
+    border: none;
+    
+}
+
 #input {
     background: rgba(255,255,255,0.15);
     border: none;
