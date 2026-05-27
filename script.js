@@ -182,3 +182,4 @@ function getCityTime(timezoneOffsetSeconds) {
 
     return `${hours}:${minutes}`;
 }
+
