@@ -218,7 +218,7 @@ body {
     }
 
     .card {
-        min-width: 70px;
+        width: 70px;
         padding: 10px;
         font-size: 14px;
     }
@@ -238,7 +238,7 @@ body {
     }
 
     #search-btn {
-        width: 100%;
+        width: 90%;
 
     }
 }
