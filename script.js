@@ -12,7 +12,7 @@ input.addEventListener("keypress", enter);
 searchBtn.addEventListener("click", searchCity);
 
 function enter(e) {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && input.value.trim() !== "") {
         getInfo(input.value);
     }
 }
@@ -183,3 +183,65 @@ function getCityTime(timezoneOffsetSeconds) {
     return `${hours}:${minutes}`;
 }
 
+//default city
+const featuredCities = [
+    "New York",
+    "London",
+    "Tokyo",
+    "Paris",
+    "Sydney",
+    "Rome",
+    "Berlin",
+    "Dubai"
+];
+function getRandomCity() {
+    const randomIndex = Math.floor(Math.random() * featuredCities.length);
+    return featuredCities[randomIndex];
+}
+async function loadFeaturedCity() {
+
+    try {
+
+        const city = getRandomCity();
+
+        const res = await fetch(
+            `${api.endpoint}forecast?q=${city}&units=metric&appid=${api.key}`
+        );
+
+        if (!res.ok) {
+            throw new Error("API request failed");
+        }
+
+        const result = await res.json();
+
+        if (!result.list || result.list.length === 0) {
+            return;
+        }
+
+        const weather = result.list[0];
+
+        document.querySelector("#featured-city")
+            .textContent = result.city.name;
+
+        document.querySelector("#featured-temp")
+            .textContent =
+            `${Math.round(weather.main.temp)}°`;
+
+        document.querySelector("#featured-condition")
+            .textContent =
+            weather.weather[0].main;
+
+    } catch (error) {
+        console.log("Featured city error:", error);
+
+        document.querySelector("#featured-city")
+            .textContent = "Unable to load";
+
+        document.querySelector("#featured-temp")
+            .textContent = "--";
+
+        document.querySelector("#featured-condition")
+            .textContent = "";
+    }
+}
+loadFeaturedCity();

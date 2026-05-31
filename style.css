@@ -12,7 +12,6 @@
     );
 }
 /* welcome section */
-
 #welcome {
     margin-top: 100px;
     text-align: center;
@@ -139,6 +138,44 @@
     margin: 0;
     font-size: 16px;
 }
+/* the section of default city  */
+#featured {
+    margin-top: 30px;
+    padding: 20px;
+
+    background: rgba(255,255,255,0.12);
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(10px);
+
+    width: 280px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#featured h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#featured-city {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#featured-temp {
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+#featured-condition {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+
 /* animation */
 body {
     margin: 0;
