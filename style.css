@@ -30,10 +30,6 @@
     opacity: 0.8;
 }
 
-#forecast {
-    display: none;
-}
-
 /* SEARCH BAR */
 #header {
     margin-top: 20px;
@@ -117,9 +113,10 @@
 
 /* FORECAST */
 #forecast {
+    display: none;
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 13px;
     flex-wrap: wrap;
 }
 
