@@ -30,10 +30,6 @@
     opacity: 0.8;
 }
 
-#weather-card {
-    display: none;
-}
-
 #forecast {
     display: none;
 }
@@ -81,6 +77,7 @@
 
 /* GLASS WEATHER CARD */
 #weather-card {
+    display: none;
     background: rgba(255,255,255,0.12);
     backdrop-filter: blur(10px);
     border-radius: 20px;
