@@ -225,11 +225,12 @@ body {
         padding: 12px; */
     }
 
-    #weather-card {
+    #weather-card, #featured {
         width: 100%;
+        min-width: 350px;
         padding: 20px;
-        max-width: 350px;
         border-radius: 25px;
+        box-sizing: border-box;
     }
 
     #city {
