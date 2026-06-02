@@ -251,8 +251,9 @@ body {
 
     .card {
         width: 70px;
+        
         padding: 10px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     #welcome h1 {
