@@ -236,9 +236,8 @@ body {
     #city {
         font-size: 22px;
     }
-
     #temperature {
-        font-size: 70px;
+        font-size: 64px;
     }
 
     #conditions {
@@ -252,6 +251,7 @@ body {
 
     .card {
         width: 70px;
+        min-height: 110px;
         padding: 10px;
         font-size: 13px;
     }
@@ -274,5 +274,6 @@ body {
         width: 100%;
         align-items: center;
     }
+
 }
 
