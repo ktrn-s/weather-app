@@ -251,9 +251,12 @@ body {
 
     .card {
         width: 70px;
-        
         padding: 10px;
         font-size: 13px;
+    }
+
+    #welcome {
+        margin-top: 50px;
     }
 
     #welcome h1 {
@@ -261,13 +264,14 @@ body {
     }
 
     #welcome p {
-        font-size: 14px;
+        font-size: 13px;
         padding: 0 10px;
     }
 
     #header {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
 }
 
