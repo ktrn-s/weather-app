@@ -266,9 +266,5 @@ body {
         flex-direction: column;
         width: 100%;
     }
-
-    #search-btn {
-        width: 90%;
-    }
 }
 
