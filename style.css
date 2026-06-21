@@ -16,24 +16,17 @@
 }
 /* welcomeLogo section*/
 #welcomeLogo h1 {
-    /* font-size: 60px;
-    margin-bottom: 10px;
-    font-weight: 300; */
     font-size: 68px;
     font-weight: 200;
     margin: 0;
-
     letter-spacing: 3px;
-
     color: white;
-
     text-shadow:
         0 0 10px rgba(255,255,255,.4);
 }
 
 /* welcome section */
 #welcome {
-    margin-top: 100px;
     text-align: center;
 }
 
