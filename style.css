@@ -282,5 +282,10 @@ body {
         align-items: center;
     }
 
+    /*featured*/
+    #featured {
+        padding: 15px;
+        max-width: 180px;
+    }
 }
 
