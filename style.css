@@ -246,6 +246,7 @@ body {
     #weather-card, #featured {
         width: 100%;
         min-width: 350px;
+        min-width: unset;
         padding: 20px;
         border-radius: 25px;
         box-sizing: border-box;
