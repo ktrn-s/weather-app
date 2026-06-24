@@ -15,6 +15,9 @@
     );
 }
 /* welcomeLogo section*/
+#branding {
+    text-align: center;
+}
 #welcomeLogo h1 {
     font-size: 68px;
     font-weight: 200;
