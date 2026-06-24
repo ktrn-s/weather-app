@@ -17,6 +17,7 @@
 /* welcomeLogo section*/
 #branding {
     text-align: center;
+    margin-top: 20px;
 }
 #welcomeLogo h1 {
     font-size: 68px;
