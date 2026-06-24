@@ -23,7 +23,8 @@
     gap: 15px;
 }
 .logo {
-    width: 100px;
+    width: 70px;
+    height: auto;
 }
 #branding h1 {
     font-size: 68px;
