@@ -16,10 +16,14 @@
 }
 /* welcomeLogo section*/
 #branding {
+    display: flex;
     text-align: center;
     margin-top: 20px;
 }
-#welcomeLogo h1 {
+.logo {
+    width: 100px;
+}
+#branding h1 {
     font-size: 68px;
     font-weight: 200;
     margin: 0;
