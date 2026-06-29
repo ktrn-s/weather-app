@@ -19,13 +19,10 @@ gsap.to("#featured", {
     ease: "sine.inOut"
 });
 
-// this one glitches
-// gsap.from("#weather-card", {
-//     opacity: 0,
-//     y: 25,
-//     duration: .5,
-//     stagger: .1
-// });
+gsap.to("#header", {
+    y: -4,
+    duration: 2
+})
 
 
 
@@ -70,7 +67,7 @@ function displayResult(result) {
     document.querySelector("#forecast").style.display = "flex";
     document.querySelector("#welcome").style.display = "none";
 
-    //GSAP:
+    //GSAP: this one glitches still  !!!!!!
     gsap.from(".card", {
     opacity:0,
     y:30,
