@@ -11,7 +11,20 @@ gsap.from("#welcome", {
     delay: 0.3
 })
 
+gsap.to("#featured", {
+    y: -10,
+    duration: 3,
+    repeat: -1,
+    yoyo: true,
+    ease: "sine.inOut"
+});
 
+gsap.from("#weather-card", {
+    opacity: 0,
+    y: 25,
+    duration: .5,
+    stagger: .1
+});
 
 
 
