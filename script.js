@@ -19,12 +19,13 @@ gsap.to("#featured", {
     ease: "sine.inOut"
 });
 
-gsap.from("#weather-card", {
-    opacity: 0,
-    y: 25,
-    duration: .5,
-    stagger: .1
-});
+// this one glitches
+// gsap.from("#weather-card", {
+//     opacity: 0,
+//     y: 25,
+//     duration: .5,
+//     stagger: .1
+// });
 
 
 
@@ -68,6 +69,14 @@ function displayResult(result) {
     document.querySelector("#weather-card").style.display = "block";
     document.querySelector("#forecast").style.display = "flex";
     document.querySelector("#welcome").style.display = "none";
+
+    //GSAP:
+    gsap.from("#weather-card", {
+    opacity: 0,
+    y: 25,
+    duration: .5,
+    stagger: .1
+});
     //time
     let time = document.querySelector("#time");
     time.textContent = getCityTime(result.city.timezone);
