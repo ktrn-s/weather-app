@@ -7,7 +7,8 @@ gsap.from("#branding", {
 gsap.from("#welcome", {
     opacity: 0,
     y: 20,
-    duration: 1
+    duration: 1,
+    delay: 0.3
 })
 
 
