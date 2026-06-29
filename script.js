@@ -1,8 +1,14 @@
 //gsap
-gsap.from("#logo", {
+gsap.from("#branding", {
+    opacity: 0,
     y: -40,
     duration: 1.2
 });
+gsap.from("#welcome", {
+    opacity: 0,
+    y: 20,
+    duration: 1
+})
 
 
 
