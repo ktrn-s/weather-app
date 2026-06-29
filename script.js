@@ -1,8 +1,15 @@
 //gsap
+gsap.to("body",{
+    background:"linear-gradient(180deg,#4facfe,#00f2fe)",
+    duration:1.5
+});
+
 gsap.from("#branding", {
+    rotation: -30,
+    scale: .4,
     opacity: 0,
-    y: -40,
-    duration: 1.2
+    duration: 1.3,
+    ease:"elastic.out(1,0.6)"
 });
 gsap.from("#welcome", {
     opacity: 0,
@@ -19,13 +26,13 @@ gsap.to("#featured", {
     ease: "sine.inOut"
 });
 //?not sure to keep
-gsap.to("#header", {
-    y: -4,
-    duration: 3,
-    repeat: -1,
-    yoyo: true,
-    ease: "sine.inOut"
-})
+// gsap.to("#header", {
+//     y: -4,
+//     duration: 3,
+//     repeat: -1,
+//     yoyo: true,
+//     ease: "sine.inOut"
+// })
 
 
 
@@ -45,13 +52,15 @@ searchBtn.addEventListener("click", searchCity);
 searchBtn.addEventListener("mouseenter",()=>{
     gsap.to(searchBtn,{
         scale:1.08,
-        duration:.2
+        duration:.2,
+        ease: "power2.out"
     });
 });
 searchBtn.addEventListener("mouseleave",()=>{
     gsap.to(searchBtn,{
         scale:1,
-        duration:.2
+        duration:.2,
+        ease: "power2.out"
     });
 });
 
@@ -83,14 +92,19 @@ function displayResult(result) {
     document.querySelector("#forecast").style.display = "flex";
     document.querySelector("#welcome").style.display = "none";
 
+
+    
     //GSAP: this one glitches still  !!!!!!
-    gsap.from(".card", {
-    opacity:0,
-    y:30,
-    duration:.6,
-    stagger:.12,
-    ease:"back.out(1.7)"
-});
+//     gsap.from(".card", {
+//     opacity:0,
+//     y:30,
+//     duration:.6,
+//     stagger:.12,
+//     ease:"back.out(1.7)"
+// });
+
+    
+
     //time
     let time = document.querySelector("#time");
     time.textContent = getCityTime(result.city.timezone);
