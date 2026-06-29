@@ -71,11 +71,12 @@ function displayResult(result) {
     document.querySelector("#welcome").style.display = "none";
 
     //GSAP:
-    gsap.from("#weather-card", {
-    opacity: 0,
-    y: 25,
-    duration: .5,
-    stagger: .1
+    gsap.from(".card", {
+    opacity:0,
+    y:30,
+    duration:.6,
+    stagger:.12,
+    ease:"back.out(1.7)"
 });
     //time
     let time = document.querySelector("#time");
