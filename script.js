@@ -18,10 +18,13 @@ gsap.to("#featured", {
     yoyo: true,
     ease: "sine.inOut"
 });
-
+//?not sure to keep
 gsap.to("#header", {
     y: -4,
-    duration: 2
+    duration: 3,
+    repeat: -1,
+    yoyo: true,
+    ease: "sine.inOut"
 })
 
 
@@ -38,6 +41,19 @@ const input = document.querySelector("#input");
 const searchBtn = document.querySelector("#search-btn");
 input.addEventListener("keypress", enter);
 searchBtn.addEventListener("click", searchCity);
+//gsap
+searchBtn.addEventListener("mouseenter",()=>{
+    gsap.to(searchBtn,{
+        scale:1.08,
+        duration:.2
+    });
+});
+searchBtn.addEventListener("mouseleave",()=>{
+    gsap.to(searchBtn,{
+        scale:1,
+        duration:.2
+    });
+});
 
 function enter(e) {
     if (e.key === "Enter" && input.value.trim() !== "") {
