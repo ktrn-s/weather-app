@@ -95,13 +95,12 @@ function displayResult(result) {
     let temperature = document.querySelector("#temperature");
     temperature.innerHTML = `${Math.round(weather.main.temp)}<span>°</span>`;
     //gsap
-    gsap.from("#temperature", {
-    scale:0.7,
-    opacity:0,
-    duration:.7,
-    ease:"back.out(2)"
-});
-
+        gsap.from("#temperature", {
+        scale:0.6,
+        opacity:0,
+        duration:.7,
+        ease:"back.out(2)"
+    });
     //feels like
     let feelsLike = document.querySelector("#feelsLike");
     feelsLike.innerHTML = `${Math.round(weather.main.feels_like)}<span>°</span>`;
