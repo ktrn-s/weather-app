@@ -1,6 +1,8 @@
 //gsap
-
-
+gsap.from("#logo", {
+    y: -40,
+    duration: 1.2
+});
 
 
 
