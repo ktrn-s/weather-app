@@ -25,6 +25,12 @@ gsap.to("#featured", {
     yoyo: true,
     ease: "sine.inOut"
 });
+
+gsap.from("#city",{
+    opacity:0,
+    x:-20,
+    duration:.5
+});
 //?not sure to keep
 // gsap.to("#header", {
 //     y: -4,
@@ -90,12 +96,6 @@ function displayResult(result) {
     document.querySelector("#forecast").style.display = "flex";
     document.querySelector("#welcome").style.display = "none";
     //GSAP: this one glitches still  !!!!!!
-    gsap.from("#weather-card",{
-    y:40,
-    opacity:0,
-    duration:.8,
-    ease:"power3.out"
-});
 //     gsap.from(".card", {
 //     opacity:0,
 //     y:30,
