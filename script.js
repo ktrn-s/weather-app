@@ -26,11 +26,6 @@ gsap.to("#featured", {
     ease: "sine.inOut"
 });
 
-gsap.from("#city",{
-    opacity:0,
-    x:-20,
-    duration:.5
-});
 //?not sure to keep
 // gsap.to("#header", {
 //     y: -4,
@@ -117,6 +112,13 @@ function displayResult(result) {
     // city
     let city = document.querySelector("#city");
     city.textContent = `${result.city.name}, ${result.city.country}`;
+//GSAP
+gsap.from("#city", {
+    opacity: 0,
+    x: -20,
+    duration: 0.5
+});
+
     //date
     getOurDate();
     //temperature
