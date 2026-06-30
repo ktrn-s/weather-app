@@ -34,8 +34,6 @@ gsap.to("#featured", {
 //     ease: "sine.inOut"
 // })
 
-
-
 const api = {
     //link
     endpoint:"https://api.openweathermap.org/data/2.5/",
@@ -91,10 +89,13 @@ function displayResult(result) {
     document.querySelector("#weather-card").style.display = "block";
     document.querySelector("#forecast").style.display = "flex";
     document.querySelector("#welcome").style.display = "none";
-
-
-    
     //GSAP: this one glitches still  !!!!!!
+    gsap.from("#weather-card",{
+    y:40,
+    opacity:0,
+    duration:.8,
+    ease:"power3.out"
+});
 //     gsap.from(".card", {
 //     opacity:0,
 //     y:30,
