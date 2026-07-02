@@ -154,6 +154,13 @@ function displayForecast(result) {
         </div>
         `;
     }
+    gsap.from(".card", {
+        opacity:0,
+        y:25,
+        stagger:.12,
+        duration:.6,
+        ease:"power2.out"
+    });
 }
 
 
