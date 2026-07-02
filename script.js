@@ -244,13 +244,41 @@ function getCityTime(timezoneOffsetSeconds) {
 //default city
 const featuredCities = [
     "New York",
+    "Los Angeles",
+    "Chicago",
+    "Toronto",
+    "Mexico City",
+
     "London",
-    "Tokyo",
     "Paris",
-    "Sydney",
-    "Rome",
     "Berlin",
-    "Dubai"
+    "Rome",
+    "Madrid",
+    "Amsterdam",
+    "Vienna",
+
+    "Tokyo",
+    "Seoul",
+    "Beijing",
+    "Singapore",
+    "Bangkok",
+    "Hong Kong",
+
+    "Sydney",
+    "Melbourne",
+    "Auckland",
+
+    "Dubai",
+    "Istanbul",
+    "Cairo",
+
+    "Cape Town",
+    "Nairobi",
+
+    "Rio de Janeiro",
+    "São Paulo",
+    "Buenos Aires",
+    "Lima"
 ];
 function getRandomCity() {
     const randomIndex = Math.floor(Math.random() * featuredCities.length);
