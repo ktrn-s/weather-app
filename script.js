@@ -26,15 +26,6 @@ gsap.to("#featured", {
     ease: "sine.inOut"
 });
 
-//?not sure to keep
-// gsap.to("#header", {
-//     y: -4,
-//     duration: 3,
-//     repeat: -1,
-//     yoyo: true,
-//     ease: "sine.inOut"
-// })
-
 const api = {
     //link
     endpoint:"https://api.openweathermap.org/data/2.5/",
