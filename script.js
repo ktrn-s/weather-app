@@ -242,6 +242,7 @@ function getCityTime(timezoneOffsetSeconds) {
 }
 
 //default city
+let lastCity = "";
 const featuredCities = [
     "New York",
     "Los Angeles",
@@ -281,8 +282,15 @@ const featuredCities = [
     "Lima"
 ];
 function getRandomCity() {
+    let city;
+
+    do { 
     const randomIndex = Math.floor(Math.random() * featuredCities.length);
     return featuredCities[randomIndex];
+    } while (city === lastCity);
+
+    lastCity = city;
+    return city;
 }
 async function loadFeaturedCity() {
 
