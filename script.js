@@ -81,17 +81,7 @@ function displayResult(result) {
     document.querySelector("#weather-card").style.display = "block";
     document.querySelector("#forecast").style.display = "flex";
     document.querySelector("#welcome").style.display = "none";
-    //GSAP: this one glitches still  !!!!!!
-//     gsap.from(".card", {
-//     opacity:0,
-//     y:30,
-//     duration:.6,
-//     stagger:.12,
-//     ease:"back.out(1.7)"
-// });
-
     
-
     //time
     let time = document.querySelector("#time");
     time.textContent = getCityTime(result.city.timezone);
