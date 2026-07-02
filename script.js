@@ -156,9 +156,7 @@ function displayForecast(result) {
     }
     gsap.from(".card", {
         opacity:0,
-        y:25,
-        stagger:.12,
-        duration:.6,
+        y:25, 
         ease:"power2.out"
     });
 }
