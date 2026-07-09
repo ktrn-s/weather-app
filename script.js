@@ -21,7 +21,7 @@ gsap.from("#welcome", {
 
 gsap.to("#featured", {
     y: -10,
-    duration: 2,
+    duration: 3,
     repeat: -1,
     yoyo: true,
     ease: "sine.inOut"
