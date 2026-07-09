@@ -257,7 +257,7 @@ const featuredCities = [
     "Toronto",
     "Mexico City",
 
-    
+    "London",
     "Paris",
     "Berlin",
     "Rome",
