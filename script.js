@@ -11,6 +11,7 @@ gsap.from("#branding", {
     duration: 1.3,
     ease:"elastic.out(1,0.6)"
 });
+
 gsap.from("#welcome", {
     opacity: 0,
     y: 20,
@@ -264,7 +265,7 @@ const featuredCities = [
     "Amsterdam",
     "Vienna",
 
-    "Tokyo",
+    
     "Seoul",
     "Beijing",
     "Singapore",
