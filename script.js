@@ -265,7 +265,7 @@ const featuredCities = [
     "Amsterdam",
     "Vienna",
 
-    
+    "Tokyo",
     "Seoul",
     "Beijing",
     "Singapore",
