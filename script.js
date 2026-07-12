@@ -285,8 +285,7 @@ const featuredCities = [
 
     "Rio de Janeiro",
     "São Paulo",
-    "Buenos Aires",
-    "Lima"
+    "Buenos Aires"
 ];
 function getRandomCity() {
     let city;
