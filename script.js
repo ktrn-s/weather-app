@@ -290,14 +290,16 @@ const featuredCities = [
     "Lima"
 ];
 function getRandomCity() {
+
     let city;
 
-    do { 
-    const randomIndex = Math.floor(Math.random() * featuredCities.length);
-    return featuredCities[randomIndex];
+    do {
+        const randomIndex = Math.floor(Math.random() * featuredCities.length);
+        city = featuredCities[randomIndex];
     } while (city === lastCity);
 
     lastCity = city;
+
     return city;
 }
 async function loadFeaturedCity() {
