@@ -278,7 +278,7 @@ const featuredCities = [
 
     "Dubai",
     "Istanbul",
-    "Cairo",
+    
 
     "Cape Town",
     "Nairobi",
