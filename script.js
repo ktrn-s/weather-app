@@ -75,8 +75,9 @@ async function getInfo (data) {
     //console.log(result);
     if (result.cod !== "200"){
         alert("City not found. Please try another city.");
-
+        return;
     }
+    
     displayResult(result);
     displayForecast(result);
 }
