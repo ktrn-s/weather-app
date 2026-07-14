@@ -165,6 +165,8 @@
     margin-top: -10px;
     min-height: 22px;
 
+    opacity: 0;
+
 }
 /* the section of default city  */
 #featured {
