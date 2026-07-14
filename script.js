@@ -84,6 +84,16 @@ async function getInfo (data) {
             opacity: 1, 
             duration: 0.5
         });
+
+        setTimeout(() => {
+
+        gsap.to(error,{
+            opacity:0,
+            duration:0.5
+        });
+
+        },3000);
+
         return;
     }
     
