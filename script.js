@@ -72,7 +72,10 @@ async function getInfo (data) {
         `${api.endpoint}forecast?q=${data}&units=metric&appid=${api.key}`
     );
     const result = await res.json();
-    console.log(result);
+    //console.log(result);
+    if (result.cod !== "200"){
+        
+    };
     displayResult(result);
     displayForecast(result);
 }
@@ -163,7 +166,6 @@ function displayForecast(result) {
     //     ease:"power2.out"
     // });
 }
-
 
 function getOurDate(){
     const myDate = new Date();
