@@ -163,7 +163,8 @@
     color: #ffb3b3;
     font-size: 16px;
     margin-top: -10px;
-    
+    min-height: 22px;
+
 }
 /* the section of default city  */
 #featured {
