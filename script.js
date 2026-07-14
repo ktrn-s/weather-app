@@ -86,13 +86,6 @@ async function getInfo (data) {
         });
         return;
     }
-    //clear old error
-    error.textContent = "";
-
-    gsap.to(error,{
-        opacity: 0,
-        duration: 0.3
-    })
     
     displayResult(result);
     displayForecast(result);
