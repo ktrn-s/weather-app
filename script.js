@@ -68,14 +68,22 @@ function searchCity() {
 }
 
 async function getInfo (data) {
+
+    const error = document.querySelector("#error-message");
+
     const res = await fetch(
         `${api.endpoint}forecast?q=${data}&units=metric&appid=${api.key}`
     );
     const result = await res.json();
     //console.log(result);
     if (result.cod !== "200"){
-        alert("City not found. Please try another city.");
-        return;
+        
+        error.textContent = 
+        "❌ City not found. Please try again.";
+        gsap.to(error,{
+            opacity: 1, 
+            
+        })
     }
     
     displayResult(result);
