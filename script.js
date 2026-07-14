@@ -155,13 +155,12 @@ function displayForecast(result) {
         </div>
         `;
     }
-    // gsap.from(".card", {
-    //     opacity:0,
-    //     duration: 0.6,
-    //     delay: .7,
-    //     y:25, 
-    //     ease:"power2.out"
-    // });
+    gsap.from(".card", {
+        duration: 0.6,
+        delay: .7,
+        y:25, 
+        ease:"power2.out"
+    });
 }
 
 
