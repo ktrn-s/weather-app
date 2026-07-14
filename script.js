@@ -82,8 +82,9 @@ async function getInfo (data) {
         "❌ City not found. Please try again.";
         gsap.to(error,{
             opacity: 1, 
-            
-        })
+            duration: 0.5
+        });
+        return;
     }
     
     displayResult(result);
