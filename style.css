@@ -158,6 +158,10 @@
     margin: 0;
     font-size: 16px;
 }
+/*ERROR */ 
+#error-message {
+    color: #ffb3b3;
+}
 /* the section of default city  */
 #featured {
     margin-top: 30px;
