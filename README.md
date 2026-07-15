@@ -11,7 +11,7 @@ The application provides clear and user-friendly input for:
 After entering a city and pressing Enter, the application instantly displays:
 
 - Current temperature
-- “Feels like” temperature
+- Show the “Feels like” temperature
 - Weather conditions (e.g., Sunny, Rainy, Snowy)
 - Minimum and maximum temperatures for the day
 - 5-day forecast with daily highs, lows, and weather conditions
