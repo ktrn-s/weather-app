@@ -53,6 +53,7 @@ This project helped strengthen my understanding of:
 - Handling JSON data from real-world APIs
 - DOM manipulation and dynamic UI updates
 - Creating responsive and interactive user interfaces
+- Adding animations using GSAP
 
 A key challenge was correctly parsing the 5-day forecast data and displaying it in a clean format.
 
