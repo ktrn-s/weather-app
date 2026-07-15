@@ -40,7 +40,7 @@ No additional setup is required.
 
 1. Clone the repository:
  ```bash 
-.git clone https://github.com/ktrn-s/weather-app
+git clone https://github.com/ktrn-s/weather-app
 ```
 
 2. Open the project folder and open `index.html` in your browser.
@@ -55,7 +55,7 @@ This project helped strengthen my understanding of:
 - Creating responsive and interactive user interfaces
 - Adding animations using GSAP
 
-A key challenge was correctly parsing the 5-day forecast data and displaying it in a clean format.
+A key challenge was parsing the 5-day forecast data, which is returned in 3-hour intervals, and presenting it as a clear daily forecast.
 
 Future Improvements
 
