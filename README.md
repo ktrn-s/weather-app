@@ -4,18 +4,16 @@ Description
 
 SkyCast is a weather forecast web application that allows users to quickly check the current weather and view a 5-day forecast for cities around the world. The application uses the OpenWeatherMap API to provide real-time weather information through a clean, responsive, and interactive interface.
 
-The application provides clear and user-friendly input for:
-
-- City name
+The application allows users to search for weather information by entering a city name.
 
 After entering a city and pressing Enter, the application instantly displays:
 
 - Current temperature
-- Show the “Feels like” temperature
+- "Feels like" temperature
 - Weather conditions (e.g., Sunny, Rainy, Snowy)
-- Minimum and maximum temperatures for the day
-- View a 5-day weather forecast
-- Animated interface using GSAP
+- Daily minimum and maximum temperatures
+- 5-day weather forecast
+- GSAP-powered animations
 
 Optional enhancements include dynamic backgrounds and icons that change according to the weather, providing a more engaging visual experience.
 
