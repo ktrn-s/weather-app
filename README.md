@@ -39,8 +39,9 @@ How to Run the Project
 No additional setup is required.
 
 1. Clone the repository:
- bash 
-git clone https://github.com/ktrn-s/weather-app
+ ```bash 
+.git clone https://github.com/ktrn-s/weather-app
+```
 
 2. Open the project folder and open `index.html` in your browser.
 
