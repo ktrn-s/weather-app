@@ -62,5 +62,6 @@ Future Improvements
 - Hourly forecast view
 - City autocomplete search
 - Animated weather icons
+- Additional weather information (humidity, wind speed, pressure)
 - Improved mobile responsiveness
 - Geolocation-based weather detection
