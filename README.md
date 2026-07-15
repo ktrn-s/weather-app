@@ -1,4 +1,4 @@
-Weather Forecast Web Application
+SkyCast – Weather Forecast Web Application
 
 Description
 
