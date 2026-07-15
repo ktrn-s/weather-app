@@ -15,7 +15,7 @@ After entering a city and pressing Enter, the application instantly displays:
 - 5-day weather forecast
 - GSAP-powered animations
 
-Optional enhancements include dynamic backgrounds and icons that change according to the weather, providing a more engaging visual experience.
+Additional features include dynamic backgrounds and weather icons that change according to the current weather conditions, creating a more engaging user experience.
 
 Live Demo
 
@@ -27,11 +27,12 @@ Screenshot
 
 Technologies Used
 
-- JavaScript
 - HTML
 - CSS
-- OpenWeatherMap API (for weather data)
+- JavaScript
 - GSAP
+- OpenWeatherMap API (for weather data)
+
 
 How to Run the Project
 
