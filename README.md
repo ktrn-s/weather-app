@@ -32,6 +32,7 @@ Technologies Used
 - HTML
 - CSS
 - OpenWeatherMap API (for weather data)
+- GSAP
 
 How to Run the Project
 
