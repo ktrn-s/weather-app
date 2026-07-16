@@ -294,7 +294,7 @@ const featuredCities = [
     "Beijing",
     "Singapore",
     "Bangkok",
-    
+    "Hong Kong",
 
     "Sydney",
     "Melbourne",
