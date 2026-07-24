@@ -65,6 +65,6 @@ Future Improvements
 - Additional weather information (humidity, wind speed, pressure)
 - Improved mobile responsiveness
 - Geolocation-based weather detection
-- Sunrise and sunset times
+- Sunrise and sunset times!
 
 
