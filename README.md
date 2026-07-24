@@ -66,6 +66,5 @@ Future Improvements
 - Improved mobile responsiveness
 - Geolocation-based weather detection
 - Sunrise and sunset times
-- Sunrise and sunset times
 
 
