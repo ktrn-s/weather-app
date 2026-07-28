@@ -69,5 +69,16 @@ Future Improvements
 - Geolocation-based weather detection
 - Sunrise and sunset times
 
+## What I Learned
+
+Through this project I gained experience with:
+
+- Working with REST APIs
+- Fetching asynchronous data using Fetch API
+- Processing JSON responses
+- DOM manipulation
+- Responsive design
+- Integrating GSAP animations
+- Structuring JavaScript into reusable functions
 
 
