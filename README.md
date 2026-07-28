@@ -6,6 +6,8 @@ SkyCast is a responsive weather forecast application that allows users to search
 
 The application allows users to search for weather information by entering a city name.
 
+## Features
+
 After entering a city and pressing Enter, the application instantly displays:
 
 - Current temperature
@@ -17,11 +19,11 @@ After entering a city and pressing Enter, the application instantly displays:
 
 Additional features include dynamic backgrounds and weather icons that change according to the current weather conditions, creating a more engaging user experience.
 
-Live Demo
+## Live Demo
 
 https://skycastlyweathora.netlify.app/ 
 
-Screenshot
+## Screenshot
 
 ![Weather App Screenshot](./weather.png) 
 
