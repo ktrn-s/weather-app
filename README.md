@@ -27,7 +27,7 @@ https://skycastlyweathora.netlify.app/
 
 ![Weather App Screenshot](./weather.png) 
 
-Technologies Used
+## Technologies Used
 
 - HTML
 - CSS
@@ -36,7 +36,7 @@ Technologies Used
 - OpenWeatherMap API (for weather data)
 
 
-How to Run the Project
+## How to Run the Project
 
 No additional setup is required.
 
@@ -47,7 +47,7 @@ git clone https://github.com/ktrn-s/weather-app
 
 2. Open the project folder and open `index.html` in your browser.
 
-Challenges and Learnings
+## Challenges and Learnings
 
 This project helped strengthen my understanding of:
 
@@ -57,7 +57,7 @@ This project helped strengthen my understanding of:
 - Creating responsive and interactive user interfaces
 - Adding animations using GSAP
 
-A key challenge was parsing the 5-day forecast data, which is returned in 3-hour intervals, and presenting it as a clear daily forecast.
+One of the main challenges was working with the OpenWeatherMap forecast endpoint, which returns weather data in 3-hour intervals. I implemented logic to extract representative daily forecasts and display them in a clear, user-friendly format.
 
 Future Improvements
 
