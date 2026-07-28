@@ -2,7 +2,7 @@
 ### Responsive Weather Forecast Web Application
 Description
 
-SkyCast is a weather forecast web application that allows users to quickly check the current weather and view a 5-day forecast for cities around the world. The application uses the OpenWeatherMap API to provide real-time weather information through a clean, responsive, and interactive interface.
+SkyCast is a responsive weather forecast application that allows users to search for any city and view current weather conditions along with a 5-day forecast. The application uses the OpenWeatherMap API to retrieve real-time weather data and presents it through a clean, modern interface with dynamic backgrounds and subtle animations.
 
 The application allows users to search for weather information by entering a city name.
 
